@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Google Stadia</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/item_page.script" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<div class="item">
+<div class="left">
+    <h1 >Google Stadia</h1>
+</div>
+<p class="line"></p>
+<div class="right">
+    <h2 >Overview</h2>
+    <p class="lineOver"></p>
+    <p class="over"> Stadia is a cloud gaming service developed and operated by Google. It is advertised to be capable of streaming video games up to 4K resolution at 60 frames per second with support for high-dynamic-range, to players via the company's numerous data centers. </p>
+    <p class="lineOver"></p>
+</div>
+<div class="slide">
+
+    <img src="images/stadia.jpg" height="300px" width="400px" alt="this is the Stadia" title="Stadia console"/>
+</div>
+<p class="line"></p>
+
+<h2>Review</h2>
+<div class="stars" data-rating="0">
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+</div>
+
+<textarea placeholder="Add a comment" rows="5" cols="120" ></textarea>
+    <p class="line"></p>
+</div>
+<div class="btn" onclick="myFunction()">
+    <!--<button onclick="myFunction()">Submit</button>-->
+    <label>Submit</label>
+</div>
+
+<script>
+    function myFunction() {
+        alert("You have rated this item " +  document.querySelector('.stars').getAttribute('data-rating') +" stars");
+
+    }
+</script>
+
+</body>
+</html>

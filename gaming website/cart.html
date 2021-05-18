@@ -1,0 +1,157 @@
+<html>
+    <head>
+     <title>Shop</title>
+        <link rel="stylesheet" type="text/css" href="css/item_page.css">
+        <script src="js/index.js"></script>
+
+    </head>
+
+    <body>
+
+    <div class="navbar mainCss">
+        <ul class="navl">
+            <li>
+                <a class="navi" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="navi" href="cart.html">Shop</a>
+            </li>
+            <li>
+                <a class="navir" href="form.html">Login</a>
+            </li>
+
+            <li>
+                <input type="search" class="search" placeholder="search"/>
+
+            </li>
+        </ul>
+    </div>
+
+    <div class="title mainCss">
+        <h1>Games</h1>
+    </div>
+    <div class="border">
+    <div class="container mainCss">
+
+        <div class="item_shop mainCss">
+            <a href="fifa.html"><img class="image"src="images/fifa.jpg" width="200px"/></a>
+            <h3 id="itemName">FIFA 21</h3>
+            <h3>$<span id="price">60</span></h3>
+            <button id="addtocart" onclick='addItem1()'>Add to cart</button>
+        </div>
+
+        <div class="item_shop mainCss">
+           <a href="Cyberpunk.html"><img class="image"src="images/cyberpunk.jpg" width="200px"/></a>
+            <h3 id="itemName2">Cyberpunk 2077</h3>
+            <h3>$<span id="price2">60</span></h3>
+            <button  id="addtocart" onclick='addItem2()'>Add to cart</button>
+        </div>
+
+        <div class="item_shop mainCss">
+            <a href="tlou.html"> <img class="image"src="images/tlou.jpg" width="200px"/></a>
+            <h3 id="itemName3">The Last Of Us Part II</h3>
+            <h3>$<span id="price3">60</span></h3>
+            <button  id="addtocart" onclick='addItem3()'>Add to cart</button>
+        </div>
+
+        <div class="item_shop mainCss">
+            <a href="cod.html"> <img class="image"src="images/cod.jpg" width="200px"/></a>
+            <h3 id="itemName4">Call Of Duty: Cold War</h3>
+            <h3>$<span id="price4">60</span></h3>
+            <button id="addtocart" onclick='addItem4()'>Add to cart</button>
+        </div>
+    </div>
+    </div>
+    <div class="cart_place mainCss">
+        <h1 class="myCart">My Cart</h1>
+
+        <table id="tableItems"border="1" >
+            <tr class="head">
+                <td>Item Name</td>
+                <td>Price</td>
+            </tr>
+            <tr class="head">
+                <td>Total</td>
+                <td id="totalTable">0</td>
+            </tr>
+        </table>
+
+        <br>
+        <div id="BUTTONS">
+            <button id="clearBtn" onclick="clearCart()">Clear</button>
+
+            <button id="checkBtn"  onclick="checkout()">Check Out</button>
+
+        </div>
+    </div>
+
+    <div class="title mainCss">
+        <h1>Consoles</h1>
+    </div>
+    <div class="border">
+    <div class="container mainCss">
+
+        <div class="item_shop mainCss">
+            <a href="ps5.html"> <img class="image"src="images/ps5.jpg" width="200px"/></a>
+            <h3 id="itemName5">Playstation 5</h3>
+            <h3>$<span id="price5">450</span></h3>
+            <button id="addtocart" onclick="addItem5()">Add to cart</button>
+        </div>
+        <div class="item_shop mainCss">
+           <a href="switch.html"> <img class="image"src="images/switch.jpg" width="200px"/></a>
+            <h3 id="itemName6">Nintendo Switch</h3>
+            <h3>$<span id="price6">250</span></h3>
+            <button id="addtocart" onclick="addItem6()">Add to Cart</button>
+        </div>
+        <div class="item_shop mainCss">
+            <a href="stadia.html"> <img class="image"src="images/stadia.jpg" width="200px"/></a>
+            <h3 id="itemName7">Google Stadia</h3>
+            <h3>$<span id="price7">70</span></h3>
+            <button id="addtocart" onclick="addItem7()">Add to Cart</button>
+        </div>
+        <div class="item_shop mainCss">
+            <a href="Xbox.html"><img class="image"src="images/xbox.jpg" width="200px"/></a>
+            <h3 id="itemName8">Xbox Series X</h3>
+            <h3>$<span id="price8">450</span></h3>
+            <button id="addtocart" onclick="addItem8()">Add to Cart</button>
+        </div>
+        </div>
+    </div>
+    <div class="title mainCss">
+        <h1>Accessories</h1>
+    </div>
+    <div class="border">
+    <div class="container mainCss">
+
+        <div class="item_shop mainCss">
+            <a href="gamingchair.html"><img class="image"src="images/chair.jpg" width="200px"/></a>
+            <h3 id="itemName9">Gtracing Gaming Chair
+            </h3>
+            <h3>$<span id="price9">149.99</span></h3>
+            <button id="addtocart" onclick="addItem9()">Add to cart</button>
+        </div>
+        <div class="item_shop mainCss">
+            <a href="mouse.html"><img class="image"src="images/mouse.jpg" width="200px"/></a>
+            <h3 id="itemName10">Logitech G502</h3>
+            <h3>$<span id="price10">59.99</span></h3>
+            <button id="addtocart" onclick="addItem10()">Add to Cart</button>
+        </div>
+        <div class="item_shop mainCss">
+            <a href="keyboard.html"><img class="image"src="images/keyboard.jpg" width="200px"/></a>
+            <h3 id="itemName11">Corsair K55 RGB </h3>
+            <h3>$<span id="price11">49.99</span></h3>
+            <button id="addtocart" onclick="addItem11()">Add to Cart</button>
+        </div>
+        <div class="item_shop mainCss">
+           <a href="headset.html"><img class="image"src="images/headset.jpg" width="200px"/></a>
+            <h3 id="itemName12">Razer Kraken Headset</h3>
+            <h3>$<span id="price12">99.99</span></h3>
+            <button id="addtocart" onclick="addItem12()">Add to Cart</button>
+        </div>
+
+    </div>
+    </div>
+
+   <p class="foot"></p>
+    </body>
+   </html>

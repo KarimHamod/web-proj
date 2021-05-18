@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>CyberPunk</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/item_page.script" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<div class="item">
+<div class="left">
+    <h1 >Cyberpunk</h1>
+</div>
+<p class="line"></p>
+<div class="right">
+    <h2 >Overview</h2>
+    <p class="lineOver"></p>
+    <p class="over"> Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. It was released for Microsoft Windows, PlayStation 4, Stadia, and Xbox One on 10 December 2020, and will come out for PlayStation 5 and Xbox Series X/S in 2021.</p>
+    <p class="lineOver"></p>
+</div>
+<div class="slide">
+
+    <img src="images/cyberpunk.jpg" height="300px" width="400px" alt="this is the new cyberpunk game" title="cyberpunk "/>
+</div>
+<p class="line"></p>
+
+<h2>Review</h2>
+<div class="stars" data-rating="0">
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+</div>
+
+<textarea placeholder="Add a comment" rows="5" cols="120" ></textarea>
+    <p class="line"></p>
+</div>
+<div class="btn" onclick="myFunction()">
+    <!--<button onclick="myFunction()">Submit</button>-->
+    <label>Submit</label>
+</div>
+
+<script>
+    function myFunction() {
+        alert("You have rated this item " +  document.querySelector('.stars').getAttribute('data-rating') +" stars");
+
+    }
+</script>
+
+</body>
+</html>

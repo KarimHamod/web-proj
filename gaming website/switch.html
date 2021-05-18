@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Google Stadia</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/item_page.script" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<div class="item">
+<div class="left">
+    <h1 >Nintendo Switch</h1>
+</div>
+<p class="line"></p>
+<div class="right">
+    <h2 >Overview</h2>
+    <p class="lineOver"></p>
+    <p class="over">The Nintendo Switch is a hybrid video game console, consisting of a console unit, a dock, and two Joy-Con controllers. Although it is a hybrid console, Nintendo classifies it as "a home console that you can take with you on the go". </p>
+    <p class="lineOver"></p>
+</div>
+<div class="slide">
+
+    <img src="images/switch.jpg" height="300px" width="400px" alt="this is the Switch" title="Switch console"/>
+</div>
+<p class="line"></p>
+
+<h2>Review</h2>
+<div class="stars" data-rating="0">
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+</div>
+
+<textarea placeholder="Add a comment" rows="5" cols="120" ></textarea>
+    <p class="line"></p>
+</div>
+<div class="btn" onclick="myFunction()">
+    <!--<button onclick="myFunction()">Submit</button>-->
+    <label>Submit</label>
+</div>
+
+<script>
+    function myFunction() {
+        alert("You have rated this item " +  document.querySelector('.stars').getAttribute('data-rating') +" stars");
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Ps5</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/item_page.script" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<div class="item">
+<div class="left">
+<h1 >PS5</h1>
+</div>
+<p class="line"></p>
+    <div class="right">
+    <h2 >Overview</h2>
+        <p class="lineOver"></p>
+    <p class="over"> The PS5 is a technically impressive piece of hardware. There's the new custom RDNA 2 GPU that can push 4K resolution at 120 frames per second, and the octa-core AMD Zen 2-based CPU with a 3.5GHz clock speed.</p>
+    <p class="lineOver"></p>
+    </div>
+<div class="slide">
+
+    <img src="images/ps5.jpg" height="300px" width="400px" alt="this is the new ps5" title="ps5 console"/>
+</div>
+<p class="line"></p>
+
+<h2>Review</h2>
+    <div class="stars" data-rating="0">
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+    </div>
+
+    <textarea placeholder="Add a comment" rows="5" cols="120" ></textarea>
+    <p class="line"></p>
+</div>
+<div class="btn" onclick="myFunction()">
+    <!--<button onclick="myFunction()">Submit</button>-->
+    <label>Submit</label>
+</div>
+
+<script>
+    function myFunction() {
+        alert("You have rated this item " +  document.querySelector('.stars').getAttribute('data-rating') +" stars");
+
+    }
+</script>
+
+</body>
+</html>

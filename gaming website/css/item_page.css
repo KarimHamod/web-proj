@@ -1,0 +1,586 @@
+body{
+    font-family: Calibri;
+    max-width:1920px;
+    max-height: 1920px;
+
+}
+div.item{
+
+    font-family: Calibri;
+    max-width: 50%;
+    max-height: 80%;
+    margin: auto;
+    border:solid 0px;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+body{
+    background-image:url(../images/back.jpg);
+
+
+}
+.navbar{
+    height:75px;
+    width: 100%;
+    background-image:url(../images/11.jpg);
+    overflow: hidden;
+    padding-top: 20px;
+
+
+}
+
+.navl{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+.navi{
+    padding-left :2px;
+
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-size: 25px;
+    float:left;
+    margin-top: 2px;
+    border:solid 2px;
+    border-color:white ;
+    background-color:darkred;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.navi:hover{
+    color:white;
+    cursor:pointer;
+    background-color: red;
+    border:solid 3px;
+    border-radius: 5px;
+    border-color: white;
+}
+div.right{
+    float: right;
+    width: 300px;
+    height: 280px;
+    margin-right:100px ;
+    border: solid 5px;
+    border-width: 5px;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 3%;
+    padding: 10px;
+    border-color: darkred;
+    background-color: white;
+    color: darkred;
+    margin-top: -15px;
+
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    border: solid 2px;
+    background-color: darkred;
+    height: 56px;
+    text-align: center;
+
+    border-color: black;
+    border-radius: 5px;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border: solid 2px;
+    background-color: darkred;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -1px;
+    border-color: black;
+
+
+}
+
+p.lineOver{
+    background-color: darkred;
+    display: block;
+    height:5px;
+}
+
+.star{
+    color: gold;
+    font-size: 35px;
+    padding: 5px;
+    position: relative;
+    bottom: 30px;
+
+}
+.star::before{
+    content: '\2606';
+    cursor: pointer;
+}
+.star.rated::before{
+    content: '\2605';
+}
+.stars {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+div.btn{
+    width: 100px;
+    height: 30px;
+    background-color:darkred;
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+   font-family: Calibri;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navir{
+    margin-right:-40px ;
+    margin: 1px;
+    margin-right:10px;
+    margin-top: 2px;
+    padding-left :2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-size: 25px;
+    float: right;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: darkred;
+    border-color: white;
+}
+.navir:hover{
+    color:white;
+    cursor:pointer;
+    background-color: red;
+    border:solid 3px;
+    border-radius: 5px;
+    border-color:red;
+
+}
+textarea{
+    background-color: darkred;
+    color:white ;
+    border-radius: 5px;
+   margin-left: 25px;
+    padding-right: 20px;
+}
+
+
+
+
+.item_shop {
+    text-align: center;
+    float:left;
+}
+
+.title
+{   display: block;
+
+    width: 1250px;
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+    color: red;
+    margin: auto;
+}
+.container {
+    margin: auto;
+    width: 1250px;
+    padding-left: 40px;
+    text-decoration:none;
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:darkred;
+    background:none;
+    margin-right:8px;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+
+}
+
+.search{
+
+    float: right;
+    padding: 6px;
+    margin-top: -2px;
+    width:220px;
+    margin-right: 16px;
+    font-size: 17px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+.item_shop {
+    background-color:darkred;
+    display:block;
+    margin-left:45px;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    position:relative;
+    border-style: solid;
+    border-width:4px;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+
+
+}
+button{
+    display: block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+    background-color:darkred;
+    text-decoration: none;
+    color: white;
+
+}
+.btn:hover{
+    cursor: pointer;
+    color: darkred;
+    background-color: white;
+    border-color: black;
+    border: solid 2px;
+}
+.mainCSS{
+    align-items: center;
+    float:left;
+}
+.image{
+    height:200px;
+    width: 200px;
+}
+.navir{
+    margin-right:-40px ;
+    margin: 1px;
+    margin-right:10px;
+    margin-top: 2px;
+    padding-left :2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-size: 25px;
+    float: right;
+}
+.navir:hover{
+    color:white;
+    cursor:pointer;
+    background-color: red;
+    border:solid 3px;
+    border-radius: 5px;
+    border-color: beige;
+}
+
+.cart_place{
+    float: right;
+    position: relative;
+    display: block;
+    margin-left:0px;
+    background-color: darkred;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 500px ;
+
+
+    text-align:center;
+    overflow:auto;
+
+
+}
+.shop_items{
+    float: left;
+    display:block;
+
+
+
+}
+#tableItems{
+
+    margin:auto;
+    border: solid 1px;
+    width:400px;
+    text-align:center;
+    border-collapse: collapse;
+    background-color:darkred;
+    border-color: white;
+    color: white;
+}
+
+
+
+
+
+#BUTTONS{
+
+    clear: both;
+    margin-left: 25%;
+
+}
+#clearBtn{
+    float: left;
+    width: 100px;
+    margin:auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 20px;
+    background-color:darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#checkBtn{
+    float: left;
+    width:100px;
+    margin:auto;
+    margin-left: 25px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 20px;
+    background-color:darkred;
+    color: white;
+    text-decoration: none;
+}
+#addtocart{
+    display: block;
+    margin-left:55px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 20px;
+    background-color:darkred;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#addtocart:hover{
+    background-color: white;
+    cursor: pointer;
+    color: darkred;
+    border-color: black;
+}
+#checkBtn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: darkred;
+    border-color: darkred;
+}
+#clearBtn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: darkred;
+    border-color: darkred;
+}
+.head{
+    font-weight: bolder;
+    background-color: white;
+
+    color: darkred;
+    border:black;
+    border-style: ridge;
+}
+.myCart{
+    background-color: white;
+    color: darkred;
+}
+#SliderPlace {
+    color:white;
+    margin:auto;
+    width:50%;
+    border:none;
+
+}
+#slidingImage{
+    height:500px;
+    width:500px;
+    z-index:-1;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#slideRight{
+    left: 1250px;
+    margin-top: -120px;
+}
+
+#slideLeft{
+    right:1250px;
+    margin-top: -120px;
+    margin-right: -50px;
+}
+
+#slideLeft, #slideRight{
+    width:50px;
+    height:50px;
+
+    border-radius:50%;
+    background-color:darkred;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    border: none;
+
+}
+
+#slideLeft:hover, #slideRight:hover{
+    background-color: white;
+
+    color: darkred;
+
+
+}
+
+#captions{
+
+    width:400px;
+    margin-top: 450px;
+    z-index: 1;
+    font-size:18px;
+    position:absolute;
+    background-color: grey;
+    opacity: 0.9;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: auto;
+    right:750px;
+}
+.par{
+    width: 800px;
+    height: auto;
+    border: solid 5px;
+    border-width: 5px;
+    margin: auto;
+    border-radius: 3%;
+    padding: 10px;
+    border-color: darkred;
+    background-color: white;
+    color: darkred;
+    margin-top: -15px;
+    font-size: large;
+}
+.about{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#form {
+    width: 1300px;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:5px;
+}
+
+.formItem {
+
+
+
+    z-index: 1;
+    max-width: 360px;
+    text-align: center;
+    font-family: "roboto",Calibri;
+    background:darkred;
+    width: 100%;
+    border: 0;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+
+}
+#form input {
+    font-family: "roboto", sans-serif;
+
+    background: white;
+    width: 100%;
+    border: 0px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius:5px;
+}
+
+#formSubmit input {
+    background: darkred;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    color: white;
+
+}
+#formSubmit input:hover {
+    background-color: white;
+    color:red;
+    cursor:pointer;
+}
+
+#form #formSubmit{
+    border:5px;
+    width:50%;
+}
+#formSubmitLogIn input {
+    background: darkred;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    color: white;
+
+}
+#formSubmitLogIn input:hover {
+    background-color: white;
+    color:red;
+    cursor:pointer;
+}
+
+#form #formSubmitLogIn{
+    border:5px;
+    width:50%;
+}
+#register-form{
+    display:none;
+}
+.message {
+    font-size:14px;
+    font-family: Calibri;
+    color: white;
+}
+.links {
+    color: white;
+}

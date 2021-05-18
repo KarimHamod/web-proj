@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>The Last Of US</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/item_page.script" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<div class="item">
+<div class="left">
+    <h1 >The Last Of Us Part 2</h1>
+</div>
+<p class="line"></p>
+<div class="right">
+    <h2 >Overview</h2>
+    <p class="lineOver"></p>
+    <p class="over"> The Last of Us Part II is an action-adventure game played from a third-person perspective featuring elements of the survival horror genre. The player traverses post-apocalyptic environments such as buildings and forests to advance the story.</p>
+    <p class="lineOver"></p>
+</div>
+<div class="slide">
+
+    <img src="images/tlou.jpg" height="300px" width="400px" alt="this is the The Last Of Us game" title="The Last Of Us Part 2"/>
+</div>
+<p class="line"></p>
+
+<h2>Review</h2>
+<div class="stars" data-rating="0">
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+    <span class="star">&nbsp;</span>
+</div>
+
+<textarea placeholder="Add a comment" rows="5" cols="120" ></textarea>
+    <p class="line"></p>
+</div>
+<div class="btn" onclick="myFunction()">
+    <!--<button onclick="myFunction()">Submit</button>-->
+    <label>Submit</label>
+</div>
+
+
+<script>
+    function myFunction() {
+        alert("You have rated this item " +  document.querySelector('.stars').getAttribute('data-rating') +" stars");
+
+    }
+</script>
+
+</body>
+</html>
